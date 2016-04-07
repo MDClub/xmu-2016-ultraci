@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uitraci.hotel.hotel.MainActivity"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:layout_weight="8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_weight="4">
+
+            <ImageView
+                android:id="@+id/main_iv_member_checkin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/member_logo"
+                android:clickable="true"
+                android:layout_weight="2"
+                android:text="会员入住"/>
+
+            <ImageView
+                android:id="@+id/main_iv_tourist_checkin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:background="@mipmap/tourist_logo"
+                android:layout_weight="2"
+                android:text="散客入住"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            >
+            <ImageView
+                android:id="@+id/main_iv_repeatorder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/repeatorder_logo"
+                android:text="续订"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/main_iv_exitroom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/exitroom_logo"
+                android:layout_weight="1"
+                android:text="退房"/>
+            <ImageView
+                android:id="@+id/main_iv_selectroom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:background="@mipmap/selectroom_logo"
+                android:layout_weight="1"
+                android:text="选房"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

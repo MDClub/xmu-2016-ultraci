@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">hotel</string>
+    <string name="my_app_name">酒店入住终端</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="app_id">553ddc3e</string>
+
+    <string name="title_activity_login__voice">Login_Voice</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login_voice">VoicePrint</string>
+
+    <string name="txt_username_login">员工名</string>
+    <string name="txt_uidrec">用户标识：</string>
+    <string name="txt_register_text"><u>注册新用户</u></string>
+    <string name="txt_register_voice"><u>建立声纹密码</u></string>
+    <string name="txt_getuid">获取用户名</string>
+    <string name="txt_login_voice_verify">验证</string>
+    <string name="txt_search">查询模型</string>
+    <string name="txt_delete">删除模型</string>
+    <string name="txt_getpwd">获取密码</string>
+    <string name="txt_rv">注册</string>
+    <string name="txt_stoprec">停止录音</string>
+    <string name="txt_cancelrv">取消注册</string>
+    <string name="txt_return">返回</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register_voice">RegisterVoice</string>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+
+</resources>
